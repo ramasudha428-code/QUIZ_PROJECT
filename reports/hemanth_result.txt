@@ -1,0 +1,4 @@
+Candidate: Hemanth
+Score: 6
+Percentage: 60.00%
+Grade: C

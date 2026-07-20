@@ -1,0 +1,86 @@
+=====================================
+Candidate Name : sudha
+Score          : 1
+Percentage     : 10.0%
+-------------------------------------
+=====================================
+Candidate Name : y.ramasudha
+Score          : 5
+Percentage     : 50.0%
+-------------------------------------
+=====================================
+Candidate Name : yanamala ra
+Score          : 10
+Percentage     : 100.0%
+Grade          : A+
+-------------------------------------
+=====================================
+Candidate Name : yanamala ramasudha
+Score          : 6
+Percentage     : 60.0%
+Grade          : C
+-------------------------------------
+=====================================
+Candidate Name : yanamalasudha
+Score          : 5
+Percentage     : 50.0%
+Grade          : Fail
+-------------------------------------
+=====================================
+Candidate Name : hemanth
+Score          : 3
+Percentage     : 30.0%
+-------------------------------------
+=====================================
+Candidate Name : yanamala ramasudha
+Score          : 2
+Percentage     : 20.0%
+Grade          : Fail
+-------------------------------------
+=====================================
+Candidate Name : yanamala ramasudha
+Score          : 3
+Percentage     : 30.0%
+Grade          : Fail
+-------------------------------------
+=====================================
+Candidate Name : yanamala sudha
+Score          : 4
+Percentage     : 40.0%
+Grade          : Fail
+-------------------------------------
+=====================================
+Candidate Name : sravani
+Score          : 10
+Percentage     : 100.0%
+Grade          : A+
+-------------------------------------
+=====================================
+Candidate Name : sudha
+Score          : 10
+Percentage     : 100.0%
+Grade          : A+
+-------------------------------------
+=====================================
+Candidate Name : reddamma
+Score          : 6
+Percentage     : 60.0%
+Grade          : C
+-------------------------------------
+=====================================
+Candidate Name : yanamala ramasudha
+Score          : 10
+Percentage     : 100.0%
+Grade          : A+
+-------------------------------------
+=====================================
+Candidate Name : sudha
+Score          : 4
+Percentage     : 40.0%
+Grade          : Fail
+-------------------------------------
+=====================================
+Candidate Name : hello
+Score          : 3
+Percentage     : 30.0%
+-------------------------------------

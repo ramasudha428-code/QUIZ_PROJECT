@@ -1,0 +1,4 @@
+Candidate: sudha rama
+Score: 3
+Percentage: 30.00%
+Grade: Fail

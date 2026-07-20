@@ -1,0 +1,4 @@
+Candidate: a
+Score: 1
+Percentage: 10.00%
+Grade: Fail

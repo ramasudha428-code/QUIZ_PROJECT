@@ -1,0 +1,72 @@
+{% extends 'layout.html' %}
+
+{% block title %}Start Quiz | AI Python Quiz System{% endblock %}
+
+{% block content %}
+<div class="container">
+    <!-- Welcome Card -->
+    <section id="welcome-card" class="glass-card fade-in">
+        <h2 class="section-title">Test Your Python Mastery</h2>
+        <p class="section-desc">Challenge yourself with curated core Python questions and receive an AI-powered diagnostic feedback report about your strengths and weak areas.</p>
+        
+        <form id="start-form" onsubmit="event.preventDefault(); startQuiz();">
+            <div class="input-group">
+                <input type="text" id="candidate-name" required placeholder=" " autocomplete="off">
+                <label for="candidate-name">Enter Your Full Name</label>
+                <div class="input-glow"></div>
+            </div>
+            
+            <button type="submit" id="btn-start" class="btn btn-primary">
+                <span>Start Evaluation</span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+            </button>
+        </form>
+    </section>
+
+    <!-- Quiz Card (Hidden by default) -->
+    <section id="quiz-card" class="glass-card hidden">
+        <div class="quiz-header">
+            <div class="quiz-info">
+                <span id="question-counter">Question 1 of 10</span>
+                <span id="topic-tag" class="topic-badge">Topic</span>
+            </div>
+            <!-- Progress Bar -->
+            <div class="progress-container">
+                <div id="progress-bar" class="progress-fill" style="width: 10%;"></div>
+            </div>
+        </div>
+
+        <!-- Question Body -->
+        <div class="question-container">
+            <h3 id="question-text" class="question-title">What is Python?</h3>
+            <div id="options-container" class="options-grid">
+                <!-- Javascript will render options here -->
+            </div>
+        </div>
+
+        <!-- Quiz Navigation Footer -->
+        <div class="quiz-footer">
+            <button id="btn-prev" class="btn btn-secondary" onclick="prevQuestion()" disabled>
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
+                <span>Back</span>
+            </button>
+            <button id="btn-next" class="btn btn-primary" onclick="nextQuestion()">
+                <span>Next</span>
+                <svg id="btn-next-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+            </button>
+        </div>
+    </section>
+
+    <!-- Loader Overlay -->
+    <div id="submit-loader" class="loader-overlay hidden">
+        <div class="loader-content">
+            <div class="spinner"></div>
+            <p>Analyzing your answers with AI...</p>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script src="{{ url_for('static', filename='js/script.js') }}"></script>
+{% endblock %}

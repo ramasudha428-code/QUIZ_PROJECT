@@ -1,0 +1,121 @@
+[
+    {
+        "question": "What is Python?",
+        "options": [
+            "Programming Language",
+            "Snake",
+            "Game",
+            "Browser"
+        ],
+        "answer": "Programming Language",
+        "topic": "Basics"
+    },
+
+    {
+        "question": "Which keyword is used to create function in Python?",
+        "options": [
+            "function",
+            "define",
+            "def",
+            "func"
+        ],
+        "answer": "def",
+        "topic": "Functions"
+    },
+
+    {
+        "question": "Which data type is mutable?",
+        "options": [
+            "tuple",
+            "string",
+            "list",
+            "int"
+        ],
+        "answer": "list",
+        "topic": "Data Types"
+    },
+
+    {
+        "question": "What is output of 5 // 2 ?",
+        "options": [
+            "2",
+            "2.5",
+            "3",
+            "1"
+        ],
+        "answer": "2",
+        "topic": "Operators"
+    },
+
+    {
+        "question": "Which loop is used for iteration?",
+        "options": [
+            "for",
+            "switch",
+            "case",
+            "goto"
+        ],
+        "answer": "for",
+        "topic": "Loops"
+    },
+
+    {
+        "question": "Which symbol is used for comments in Python?",
+        "options": [
+            "//",
+            "#",
+            "/*",
+            "--"
+        ],
+        "answer": "#",
+        "topic": "Comments"
+    },
+
+    {
+        "question": "Which function is used for input?",
+        "options": [
+            "scan()",
+            "cin",
+            "input()",
+            "read()"
+        ],
+        "answer": "input()",
+        "topic": "Input Output"
+    },
+
+    {
+        "question": "Which keyword is used for condition checking?",
+        "options": [
+            "loop",
+            "if",
+            "case",
+            "switch"
+        ],
+        "answer": "if",
+        "topic": "Conditions"
+    },
+
+    {
+        "question": "Which collection stores key-value pairs?",
+        "options": [
+            "list",
+            "tuple",
+            "dictionary",
+            "set"
+        ],
+        "answer": "dictionary",
+        "topic": "Dictionary"
+    },
+
+    {
+        "question": "Which operator is used for exponent?",
+        "options": [
+            "^",
+            "**",
+            "%",
+            "//"
+        ],
+        "answer": "**",
+        "topic": "Operators"
+    }
+]

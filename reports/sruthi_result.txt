@@ -1,0 +1,4 @@
+Candidate: sruthi
+Score: 4
+Percentage: 40.00%
+Grade: Fail
